@@ -1,0 +1,7 @@
+cache
+config/packages.chroot/
+config/includes.chroot/etc/skel/.ssh/
+config/includes.chroot/etc/skel/.fctsslvpnhistory
+config/hooks/normal/
+config/hooks/live/0*
+config/includes.chroot/usr/share/chromium/initial_bookmarks.html

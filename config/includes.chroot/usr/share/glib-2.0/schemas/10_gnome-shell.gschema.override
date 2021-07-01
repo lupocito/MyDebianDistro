@@ -1,0 +1,20 @@
+[org.gnome.shell]
+enabled-extensions=['alternate-tab@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com']
+favorite-apps=['chromium.desktop', 'org.gnome.Terminal.desktop', 'keepass2.desktop', 'org.gnome.Nautilus.desktop', 'code.desktop']
+
+[org.gnome.shell.window-switcher]
+app-icon-mode='both'
+
+[org.gnome.control-center]
+last-panel='default-apps'
+
+[org.gnome.settings-daemon.plugins.power]
+sleep-inactive-ac-timeout=1800
+sleep-inactive-battery-timeout=900
+
+[org.gnome.settings-daemon.plugins.xsettings]
+antialiasing='grayscale'
+hinting='slight'
+
+[org.gnome.nautilus.icon-view]
+default-zoom-level='standard'

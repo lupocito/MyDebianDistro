@@ -1,0 +1,116 @@
+{
+  "distribution": {
+     "import_bookmarks": false,
+     "import_bookmarks_from_file": "/usr/share/chromium/initial_bookmarks.html",
+     "make_chrome_default": false,
+     "make_chrome_default_for_user": false,
+     "verbose_logging": true,
+     "skip_first_run_ui": true,
+     "create_all_shortcuts": true,
+     "suppress_first_run_default_browser_prompt": true
+  },
+  "browser": {
+     "show_home_button": true,
+     "has_seen_welcome_page" : true,
+     "check_default_browser" : false
+  },
+  "profile": {
+     "default_content_setting_values": {
+        "payment_handler": 2
+     }
+  },
+  "bookmark_bar": {
+     "show_on_all_tabs": true
+  },
+  "net": {
+     "network_prediction_options": 2
+  },
+  "search": {
+     "suggest_enabled": false
+  },
+  "signin": {
+     "allowed": false,
+     "allowed_on_next_startup": false
+  },
+  "autofill": {
+     "profile_enabled": false,
+     "credit_card_enabled": false
+  },
+  "payments": {
+     "can_make_payment_enabled": false
+  },
+  "safebrowsing": {
+     "enabled": false
+  },
+  "dns_prefetching": {
+     "enabled": false
+  },
+  "alternate_error_pages": {
+     "enabled": false
+  },
+  "credentials_enable_service": false,
+  "credentials_enable_autosignin": false,
+  "default_apps": "noinstall",
+  "hide_web_store_icon": true,
+  "homepage_is_newtabpage": true,
+  "homepage": "https://duckduckgo.com/",
+
+  "extensions": {
+    "settings": {
+       "jaioibhbkffompljnnipmpkeafhpicpd": {
+          "location": 1,
+          "manifest": {
+             "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgHOLAufKPXWWsegdReYapukhc5xsszMQ3iywXZdWtW9khGqgUzbLH5PJ0r4+NPxuoYbu7ZKE7jBa/xkIQOowVo93RI4/PP3jHb18RyaRhMkXwBW+vUahX07ibQhM4uF1WckxkBE1rsVcn0aoAatizGPybHWENtx0qLgmw85pBOWiMv1Wz4RrtM/gZFFdfTzlxVJLZlYlU6kowTg6A16btd8n5koHKsWRIa5sKdkiCu7CGfc0NkZC8L/C8MZKepyzWKii7K4C434VoVPGkU7hLOC6gtzc5VA61pNA0DTyPGjWZtYdLlcJHEEIDwisZC4GFb9vQuWeSjo8VtAt7rMw0QIDAQAB",
+             "name": "Tab Auto Refresh",
+             "permissions": [ "tabs", "storage", "notifications" ],
+             "update_url": "http://clients2.google.com/service/update2/crx",
+             "version": "0.0",
+             "manifest_version": 2
+          },
+          "path": "jaioibhbkffompljnnipmpkeafhpicpd\\0.0",
+          "state": 1
+       },
+       "cjpalhdlnbpafiamejdnhcphjbkeiagm": {
+          "location": 1,
+          "manifest": {
+             "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmJNzUNVjS6Q1qe0NRqpmfX/oSJdgauSZNdfeb5RV1Hji21vX0TivpP5gq0fadwmvmVCtUpOaNUopgejiUFm/iKHPs0o3x7hyKk/eX0t2QT3OZGdXkPiYpTEC0f0p86SQaLoA2eHaOG4uCGi7sxLJmAXc6IsxGKVklh7cCoLUgWEMnj8ZNG2Y8UKG3gBdrpES5hk7QyFDMraO79NmSlWRNgoJHX6XRoY66oYThFQad8KL8q3pf3Oe8uBLKywohU0ZrDPViWHIszXoE9HEvPTFAbHZ1umINni4W/YVs+fhqHtzRJcaKJtsTaYy+cholu5mAYeTZqtHf6bcwJ8t9i2afwIDAQAB",
+             "name": "uBlock Origin",
+             "permissions": [ "contextMenus", "privacy", "storage", "tabs", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+             "update_url": "http://clients2.google.com/service/update2/crx",
+             "version": "0.0",
+             "manifest_version": 2
+          },
+          "path": "cjpalhdlnbpafiamejdnhcphjbkeiagm\\0.0",
+          "state": 1
+       },
+       "neebplgakaahbhdphmkckjjcegoiijjo": {
+          "location": 1,
+          "manifest": {
+             "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDD1oAEkEvui5bB9DFRUZX/gxvpP6iHPPl6rcOuEfG0RGaJe3zbNhjVrX2cCRiCMwVI5utJxQ20+Nzsy0QlHWv4XLe2UWI7p1Yt+2jQuIFM4GhXpqofqem7Nlzm5bq9E7BKRQeg5N+ngwSIaZNHVOhB3CgEtrGXYOC9HuS8PV0XcQIDAQAB",
+             "name": "Keepa - Amazon Price Tracker",
+             "permissions": [ "notifications", "webRequest", "webRequestBlocking", "storage", "contextMenus", "*://*.keepa.com/*", "*://*.amazon.com/*", "*://*.amzn.com/*", "*://*.amazon.co.uk/*", "*://*.amazon.de/*", "*://*.amazon.fr/*", "*://*.amazon.it/*", "*://*.amazon.ca/*", "*://*.amazon.com.mx/*", "*://*.amazon.es/*", "*://*.amazon.cn/*", "*://*.amazon.co.jp/*", "*://*.amazon.in/*", "*://*.amazon.com.br/*", "*://*.amazon.nl/*", "*://*.amazon.com.au/*" ],
+             "update_url": "http://clients2.google.com/service/update2/crx",
+             "version": "0.0",
+             "manifest_version": 2
+          },
+          "path": "neebplgakaahbhdphmkckjjcegoiijjo\\0.0",
+          "state": 1
+       },
+       "dnhpnfgdlenaccegplpojghhmaamnnfp": {
+          "location": 1,
+          "manifest": {
+             "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgSsjOO0ecqqAz6LCjjIoiRUV3VyW4p7mmTg9bC9uUkj28OgVr5+NRJpyI8gJx7Nd43ZEQ8dfwOl8GLnc3+m90jPSUASlliWxG2LQt81IZhtFurCLUELGIfUSr5vPdthRbwgnPrmRc5nylstBORBwYtT0Dos9pBcikHn0QKo87ggWEAQEBGkLXQ8An01LnQopLX4VbZHTfvoTIjPZOiHUVhKhn4aKM70e/u61mGMSp9WDBYrV0/OFKsVC9jWd9s0DX/uOm3KpFhOj4Bx+ehzEklXNuTTQshIC7NSgh+tAJwSa1GpO9jcCWCnFRqjfxwOrdylqIvCy+87fpU7nJ6sHRQIDAQAB",
+             "name": "Augmented Steam",
+             "permissions": [ "storage", "*://*.steampowered.com/*", "*://steamcommunity.com/*", "*://*.isthereanydeal.com/" ],
+             "update_url": "http://clients2.google.com/service/update2/crx",
+             "version": "0.0",
+             "manifest_version": 2
+          },
+          "path": "dnhpnfgdlenaccegplpojghhmaamnnfp\\0.0",
+          "state": 1
+       }
+
+    }
+  }
+}
+

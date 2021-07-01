@@ -1,0 +1,19 @@
+#!/bin/sh
+# https://manpages.debian.org/testing/live-build/lb_config.1.en.html
+
+set -e
+
+lb config noauto \
+	--mode debian \
+	--architectures amd64 \
+	-d buster \
+	--debian-installer live \
+	--archive-areas "main contrib non-free" \
+	--memtest none \
+	--apt aptitude \
+	-b iso-hybrid \
+	--updates true \
+	--backports false \
+	--security true \
+	--bootappend-live "boot=live components quiet splash username=usuario locales=es_ES.UTF-8 keyboard-layouts=es" \
+	"${@}"

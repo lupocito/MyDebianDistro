@@ -1,0 +1,22 @@
+echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ buster main" | tee /etc/apt/sources.list.d/azcli.list
+echo "deb [arch=amd64] https://packages.microsoft.com/repos/code stable main" | tee /etc/apt/sources.list.d/vscode.list
+echo "deb [arch=amd64] https://packages.microsoft.com/debian/10/prod buster main" | tee /etc/apt/sources.list.d/pwsh.list
+echo "deb http://www.deb-multimedia.org buster main non-free" | tee /etc/apt/sources.list.d/debmulti.list
+echo "deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian buster contrib" | tee /etc/apt/sources.list.d/virtualbox.list
+echo "deb https://deb.opera.com/opera-stable/ stable non-free" | tee /etc/apt/sources.list.d/opera-stable.list
+echo "deb [arch=amd64] https://download.docker.com/linux/debian buster stable" | tee /etc/apt/sources.list.d/docker.list
+echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | tee /etc/apt/sources.list.d/k8s.list
+
+apt-get update
+apt-get -y install code opera-stable avidemux virtualbox-6.1 azure-cli docker-ce docker-ce-cli containerd.io kubectl powershell
+
+wget https://www.python.org/ftp/python/3.9.5/Python-3.9.5.tgz
+tar xvf Python-3.9.5.tgz
+cd Python-3.9.5
+./configure --with-ensurepip=install --prefix=/opt/Python/3.9.5
+make -j 8
+make install
+cd -
+rm -Rf Python-3.9.5
+
+apt-get -y remove libssl-dev zlib1g-dev libbz2-dev libffi-dev libreadline-dev libsqlite3-dev libncurses5-dev libncursesw5-dev tk-dev unixodbc-dev

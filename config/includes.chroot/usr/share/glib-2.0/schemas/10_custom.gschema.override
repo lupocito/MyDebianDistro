@@ -1,0 +1,21 @@
+[org.gnome.desktop.peripherals.touchpad]
+speed=0.68382352941176472
+two-finger-scrolling-enabled=true
+tap-to-click=true
+send-events='enabled'
+
+[org.gnome.gedit.preferences.editor]
+wrap-last-split-mode='word'
+display-line-numbers=true
+
+[org.gnome.gedit.preferences.ui]
+show-tabs-mode='auto'
+side-panel-visible=true
+
+[org.gnome.gedit.plugins]
+active-plugins=['spell', 'modelines', 'time', 'docinfo', 'filebrowser']
+
+[org.gnome.nautilus.preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+

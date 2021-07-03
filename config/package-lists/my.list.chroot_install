@@ -36,6 +36,8 @@ transmission
 pulseaudio
 pulseaudio-utils
 pulseaudio-module-gsettings
+msttcorefonts
+gimp
 
 wget
 build-essential

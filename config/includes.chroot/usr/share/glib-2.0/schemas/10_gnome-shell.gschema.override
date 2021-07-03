@@ -11,6 +11,7 @@ last-panel='default-apps'
 [org.gnome.settings-daemon.plugins.power]
 sleep-inactive-ac-timeout=1800
 sleep-inactive-battery-timeout=900
+power-button-action='interactive'
 
 [org.gnome.settings-daemon.plugins.xsettings]
 antialiasing='grayscale'

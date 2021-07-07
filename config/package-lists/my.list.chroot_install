@@ -38,6 +38,7 @@ pulseaudio-utils
 pulseaudio-module-gsettings
 msttcorefonts
 gimp
+pavucontrol
 
 wget
 build-essential
